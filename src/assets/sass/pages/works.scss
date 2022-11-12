@@ -1,0 +1,85 @@
+.works{
+    padding: 128px;
+    @media (max-width: $tablet) {
+        padding: 64px 16px;
+    }
+
+
+    
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 128px;
+        @media (max-width: $tablet) {
+            flex-direction: column;
+            padding-bottom: 48px;
+        }
+        
+    }
+    &__title{
+        @media (max-width: $tablet) {
+            padding-bottom: 48px;
+        }
+    }
+
+    &__text{
+        width: 541px; 
+        @media (max-width: $tablet) {
+           width: 288px;
+        }
+           
+    }
+    &__cards{
+        display: flex;
+        flex-direction: column;
+        gap:48px;
+        @media (max-width: $tablet) {
+            gap:64px;
+            
+         }  
+
+
+    }
+    &__item-img{
+        width: 544px;
+        @media (max-width: $tablet) {
+            width: 288px;
+            margin-bottom: 24px;
+         }
+
+    }
+
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: $tablet) {
+        flex-direction: column-reverse;    
+         }  
+    }
+
+    &__item-title{
+        color:$color-black;
+        
+        &::after{
+            content:'';
+            display: block;
+            height: 1px;
+            width: 85px;
+            background: $color-grey500;   
+        }
+
+    }
+    &__item-text{
+        padding-bottom: 16px;
+        
+    }
+    &__item-year{
+        padding-bottom: 39px;
+        color: $color-grey700;
+    }
+   
+    &__button{
+        margin-top: 40px;
+    }
+   
+}

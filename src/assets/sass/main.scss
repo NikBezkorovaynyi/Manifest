@@ -3,6 +3,8 @@
 @import './variables/media';
 @import './variables/fonts';
 
+
+
 // Global Style
 @import './global/resets.scss';
 @import './global/global.scss';
@@ -13,7 +15,13 @@
 @import './common/footer.scss';
 // Common section End
 
+// Components
+@import './components/button.scss';
+// components end
+
 // Pages Style
 @import './pages/home.scss';
+@import './pages/about.scss';
+@import './pages/works.scss';
 @import './pages/contact.scss';
 // Pages Style End
