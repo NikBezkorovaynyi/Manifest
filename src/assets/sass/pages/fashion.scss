@@ -1,0 +1,20 @@
+.fashion {
+    margin-top: 50px;
+    @media(max-width:$tablet){
+        padding: 64px 16px;
+    }
+
+    padding-top: 96px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+       
+}
+    
+
+
+
+    
