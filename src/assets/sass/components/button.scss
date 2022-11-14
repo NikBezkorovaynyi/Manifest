@@ -22,6 +22,7 @@
     &--icon {
         &::after {
             content: '→';
+            padding-bottom: 5px;
             font-size: 20px;
             padding-left: 8px;
             color: $color-white;
@@ -30,6 +31,7 @@
     &--icon1 {
         &::before {
             content: '←';
+            padding-bottom: 5px;
             font-size: 20px;
             padding-left: 8px;
             color: $color-white;

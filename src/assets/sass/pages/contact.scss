@@ -8,6 +8,7 @@
     &__container {
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
         margin: 0 auto;
         @media(max-width:$tablet){
             flex-direction: column;
@@ -15,9 +16,13 @@
     }
 
     &__content{
-        width: 50%;
+        width: 100%;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        @media(max-width:$tablet){
+            flex-direction: column;
+        }
+        
     }
 
     &__title{
@@ -25,7 +30,8 @@
     }
 
     &__text{
-        padding-top: 23px;
+        width: 50%;
+       padding-bottom: 80px;
         
     }
 
@@ -48,17 +54,33 @@
     }
 
     &__social{
-        height: 12px;
-        cursor: pointer;
+       display: flex;
+       flex-direction: column;
     }
 
     &__description{
-        width: 50%;
+        width: 100%;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        @media(max-width:$tablet){
+            flex-direction: column;
+        }
     }
     
     &__text2{
-       padding-bottom: 80px;
+        padding-top: 23px;
     }
+
+    &__modal{
+        display: flex;
+        width: 50%;
+    }
+
+    &__form{
+        width: 100%;
+        @media(max-width:$tablet){
+            margin-top: 30px;
+        }
+    }
+
 }
