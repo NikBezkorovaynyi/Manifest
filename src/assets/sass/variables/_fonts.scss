@@ -19,12 +19,23 @@ $sub-fonts:'Lato', sans-serif;
 }
 
 .text{
-        font-family: $sub-fonts;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 32px;
-        letter-spacing: 0.05em;
-        color: $color-grey700;
+    font-family: $sub-fonts;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: $color-grey700;
+}
+
+.h2{
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: $color-grey300;
+
 }
 
 .h3{

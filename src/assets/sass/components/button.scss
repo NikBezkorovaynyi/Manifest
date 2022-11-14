@@ -27,4 +27,13 @@
             color: $color-white;
         }
     }
+    &--icon1 {
+        &::before {
+            content: '←';
+            font-size: 20px;
+            padding-left: 8px;
+            color: $color-white;
+            
+        }
+    }
 }
