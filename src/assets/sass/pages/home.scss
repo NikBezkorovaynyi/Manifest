@@ -1,5 +1,139 @@
 .home {
-    background-color: blue;
-    position: relative;
+        padding: 130px;
+    
+        @media(max-width:$tablet){
+            padding: 64px 16px;
+        }
+    
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            margin: 0 auto;
+            @media(max-width:$tablet){
+                flex-direction: column;
+            }
+        }
 
-}
+        &__content{
+            margin-top: 130px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 20px;
+            @media(max-width:$tablet){
+                
+            }
+            
+        } 
+        
+        &__works{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        &__card{
+            width: 10%;
+            display: flex;
+            flex-direction: column;
+        }
+        &__card2{
+            width: 42.50%;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        &__info{
+            gap: 30px;
+            margin-top: 130px;
+            display: flex;
+            justify-content: space-between;
+            @media(max-width:$tablet){
+                flex-direction: column;
+        }
+       }
+        &__descrip{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            
+            
+        }
+
+        &__descrip-text{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+                       
+        }
+ 
+ 
+        &__posts{
+            width: 100%;
+            margin-top: 130px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            @media($tablet){
+                flex-direction: column;
+        }
+    }
+        &__posts--title{
+            display: flex;
+            justify-content: space-between;
+            text-align: end;
+            gap: 73%;
+        }
+
+            &__texts{
+                width: 50%;
+        }
+
+        &__post{
+            margin-top: 50px;
+            width: 100%;
+            gap: 30px;
+            display: flex;
+            justify-content: space-between;
+            
+            }
+
+
+        
+        &__posts--text{
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            gap: 38%;
+        }
+
+        &__post--descr{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+
+        }
+
+        // &__posts--img{
+        //     width: 250;
+        //     height: 250;
+        // }
+
+            &__item{
+                width: 30%;
+            }
+
+        
+
+       
+
+
+    
+
+        }

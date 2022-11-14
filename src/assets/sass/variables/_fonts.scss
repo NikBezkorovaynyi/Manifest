@@ -44,7 +44,7 @@ $sub-fonts:'Lato', sans-serif;
     font-size: 23px;
     line-height: 166%;
     letter-spacing: 0.1em;
-    color:$color-grey700;
+    color:$color-black;
 
 }
 
@@ -54,7 +54,19 @@ $sub-fonts:'Lato', sans-serif;
     font-size: 19px;
     line-height: 32px;
     letter-spacing: 0.05em;
-    color: $color-black;
+    color: $color-grey700;
+}
+
+.h5{
+    font-family: $sub-fonts;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.05em;
+    color: $color-grey700;
+
+
 }
 
 .h6 {
@@ -72,5 +84,5 @@ $sub-fonts:'Lato', sans-serif;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.1em;
-    color: $color-black;
+    color: $color-grey500;
 }
