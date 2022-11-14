@@ -52,6 +52,7 @@
             display: flex;
             justify-content: space-between;
             @media(max-width:$tablet){
+                display: flex;
                 flex-direction: column;
         }
        }
@@ -79,29 +80,36 @@
             display: flex;
             justify-content: space-between;
             flex-direction: column;
-            @media($tablet){
-                flex-direction: column;
+            
         }
-    }
+    
         &__posts--title{
             display: flex;
             justify-content: space-between;
             text-align: end;
             gap: 73%;
+            @media(max-width:$tablet){
+                flex-direction: column;
+                gap:20px;
+                text-align: start;
+            }
         }
 
             &__texts{
                 width: 50%;
         }
 
-        &__post{
+       &__post{
             margin-top: 50px;
             width: 100%;
             gap: 30px;
             display: flex;
             justify-content: space-between;
-            
+            @media(max-width:$tablet){
+                flex-direction: column;
+                gap: 30px;
             }
+           
 
 
         
@@ -130,10 +138,10 @@
             }
 
         
-
+ }
        
-
+}
 
     
 
-        }
+        
