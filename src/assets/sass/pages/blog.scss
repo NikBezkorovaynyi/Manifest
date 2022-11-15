@@ -1,0 +1,144 @@
+.blog{
+    
+    @media(max-width:$tablet){
+        padding: 64px 16px;
+    }
+
+    padding-top: 96px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        
+    }
+      
+    &__title{
+       
+        margin-bottom: 100px;
+    }
+        
+    
+    &__slide{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        @media(max-width:$tablet){
+            flex-direction: column;
+            gap: 30px;
+    }
+    }
+    &__img{
+        width: 50%;
+        @media(max-width:$tablet){
+            
+            width: 100%;
+    }
+    }
+
+    &__info{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    &__information{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    &__numbers{
+        color: black;
+    }
+
+    &__category{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 0px 60px 0px;
+        gap: 40px;
+        @media(max-width:$tablet){
+            
+            width: 100%;
+    }
+    }
+
+    &__posts{
+        width: 100%;
+        margin-top: 130px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+
+   
+
+    //     &__texts{
+    //         width: 50%;
+    // }
+
+   &__post{
+        margin-top: 50px;
+        width: 100%;
+        gap: 30px;
+        display: flex;
+        justify-content: space-between;
+        @media(max-width:$tablet){
+            flex-direction: column;
+            gap: 30px;
+        }
+       
+
+    }
+    
+    &__posts--text{
+        
+        display: flex;
+        justify-content: space-between;
+        @media(max-width:$tablet){
+            flex-direction: column;
+            gap: 15px;
+        }
+       
+       
+    }
+
+    &__post--descr{
+        display: flex;
+        justify-content: space-between;
+       
+
+    }
+
+    // &__posts--img{
+    //     width: 250;
+    //     height: 250;
+    // }
+
+        &__item{
+        width: 50%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        @media(max-width:$tablet){
+            
+            width: 100%;
+    }
+        }
+
+        &__button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 0 100px 0;
+        }
+
+   
+}
