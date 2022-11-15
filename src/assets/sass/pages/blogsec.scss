@@ -1,0 +1,27 @@
+.blogsec{
+    margin-top: 30px;
+    @media(max-width:$tablet){
+        padding: 64px 16px;
+    }
+
+    padding-top: 90px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;   
+    }
+
+    &__info{
+        width: 65%;
+        @media(max-width:$tablet){
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+
+
+
+
+}
