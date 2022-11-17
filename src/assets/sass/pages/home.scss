@@ -135,10 +135,14 @@
 
             &__item{
                 width: 30%;
+                @media(max-width:$tablet){
+                    flex-direction: column;
+                    width: 100%;
             }
 
         
  }
+}
        
 
 
