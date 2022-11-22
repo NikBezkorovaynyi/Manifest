@@ -33,8 +33,7 @@
             justify-content: space-between;
             gap: 30px;
         }
-
-        &__card{
+         &__card{
             width: 10%;
             display: flex;
             flex-direction: column;
@@ -43,47 +42,72 @@
             width: 42.50%;
             display: flex;
             flex-direction: column;
+            @media(max-width:$tablet){
+             width: 100%;   
+            }
             
         }
+    }
+       
 
-        &__info{
+        .info{
             gap: 30px;
-            margin-top: 130px;
             display: flex;
             justify-content: space-between;
             @media(max-width:$tablet){
                 display: flex;
                 flex-direction: column;
         }
-       }
+       
+        &__content{
+            width: 100%;
+            gap: 30px;
+            display: flex;
+            justify-content: space-between;
+            @media(max-width:$tablet){
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                justify-content: space-between;
+        }
+    }
         &__descrip{
             width: 50%;
             display: flex;
             justify-content: space-between;
             flex-direction: column;
+            @media(max-width:$tablet){
+                width: 100%;
+            }
             
             
         }
 
         &__descrip-text{
             width: 50%;
+            gap: 30px;
             display: flex;
             justify-content: space-between;
             flex-direction: column;
+            @media(max-width:$tablet){
+                width: 100%;
+            }
+
                        
         }
+    }
  
- 
-        &__posts{
+        .post{
             width: 100%;
             margin-top: 130px;
+            margin-bottom: 100px;
             display: flex;
             justify-content: space-between;
-            flex-direction: column;
             
-        }
+            
+        
     
-        &__posts--title{
+        &__title{
             display: flex;
             justify-content: space-between;
             text-align: end;
@@ -92,6 +116,7 @@
                 flex-direction: column;
                 gap:20px;
                 text-align: start;
+                margin-bottom: 20px;
             }
         }
 
@@ -99,7 +124,16 @@
                 width: 50%;
         }
 
-       &__post{
+        &__card{
+            display: flex;
+            justify-content: space-between;
+            @media(max-width:$tablet){
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+
+       &__posts{
             margin-top: 50px;
             width: 100%;
             gap: 30px;
@@ -113,39 +147,39 @@
 
         }
         
-        &__posts--text{
+        &__text{
             margin-top: 15px;
             display: flex;
             justify-content: space-between;
-           
+            text-align: center;
             gap: 38%;
+            @media(max-width:$tablet){
+                flex-direction: column;
+                gap: 15px;
+                text-align: start;
+                margin-bottom: 30px;
+            }
+           
         }
 
-        &__post--descr{
+        &__descr{
             display: flex;
             justify-content: space-between;
             margin-top: 60px;
 
         }
 
-        // &__posts--img{
-        //     width: 250;
-        //     height: 250;
-        // }
+       
 
             &__item{
                 width: 30%;
                 @media(max-width:$tablet){
                     flex-direction: column;
                     width: 100%;
+                    
             }
 
         
  }
-}
-       
 
-
-    
-
-        
+}  
