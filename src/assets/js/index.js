@@ -1,7 +1,5 @@
 console.log("test");
 
-console.log("test");
-
 let h1 = document.querySelectorAll('.animation');
 let active = 'animation__active';
 
