@@ -1,7 +1,6 @@
-.blog-page-01 {
 
-    // & == blog-01
-    .blog-01 {
+//  blog
+    .blog {
         &__container {
             display: flex;
             flex-direction: column;
@@ -260,4 +259,3 @@
             padding-left: 94px;
         }
     }
-}
