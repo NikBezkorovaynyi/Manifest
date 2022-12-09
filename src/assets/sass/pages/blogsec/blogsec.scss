@@ -48,9 +48,9 @@
         }
     }
 
-    // & == blog-01
+    // blog end
 
-    // & == description
+    //  description
     .description {
 
         &__autor {
@@ -147,9 +147,9 @@
         }
     }
 
-    // & == description end
+    // description end
 
-    // & == reply
+    //  reply
     .reply {
 
         &__container {
@@ -162,7 +162,7 @@
             margin-bottom: 64px;
         }
 
-        &__form-row {
+        &__form{
             display: flex;
             justify-content: space-between;
             gap: 43px;
@@ -202,10 +202,10 @@
         }
     }
 
-    // & == reply end
+    // reply end
 
-    // & == comments
-    .comments {
+    //comment
+    .comment {
 
         &__container {
             max-width: 663px;
