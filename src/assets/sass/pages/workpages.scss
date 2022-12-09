@@ -28,6 +28,7 @@
     @media(max-width:$tablet){
         flex-direction: column;
         gap: 40px;
+        margin-top: 70px;
     }
    }
 
@@ -60,7 +61,7 @@
     &__section:last-child{
         margin-bottom: 120px;
         @media(max-width:$tablet){
-            margin-bottom: 0px;
+            margin-bottom: 60px;
         }
     }
 
