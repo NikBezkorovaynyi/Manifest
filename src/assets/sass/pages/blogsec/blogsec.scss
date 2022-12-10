@@ -225,14 +225,14 @@
             margin-bottom: 24px;
         }
 
-        &__column {
+        &__field {
             display: flex;
             flex-direction: column;
             gap: 40px
         }
 
-        &__column-general,
-        &__column-subordinate {
+        &__field-main,
+        &__field-subordinate {
             display: flex;
             gap: 24px;
         }
@@ -242,7 +242,7 @@
             height: 70px;
         }
 
-        &__column-content-info {
+        &__field-content-info {
             display: flex;
             align-items: center;
             gap: 24px;
@@ -253,18 +253,18 @@
             color: $color-grey500;
         }
 
-        &__column-content-text {
+        &__field-content-text {
             color: $color-grey700;
             max-width: 639px;
             margin-bottom: 16px;
         }
 
-        &__reply {
+        &__field-content-link-text {
             color: $color-grey500;
             padding-left: 6px;
         }
 
-        &__column-subordinate {
-            padding-left: 94px;
+        &__field-reply {
+            padding-left: 100px;
         }
     }
