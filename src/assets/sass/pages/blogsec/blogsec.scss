@@ -9,7 +9,7 @@
 
         &__container-tag {
             color: $color-grey500;
-            padding-bottom: 24px;
+            padding-bottom: 20px;
 
             @media (max-width: $tablet) {
                 padding-bottom: 16px;
@@ -18,14 +18,14 @@
 
         &__container-title {
             max-width: 640px;
-            padding-bottom: 48px;
+            padding-bottom: 44px;
 
             @media (max-width: $tablet) {
                 padding-bottom: 16px;
             }
         }
 
-        &__container-text {
+        &__info-text {
             display: flex;
             gap: 39px;
 
@@ -35,25 +35,20 @@
             }
         }
 
-        &__container-text-comments {
+        &__info-text-comments {
             display: flex;
             align-items: center;
             gap: 8px;
             margin-bottom: 64px;
         }
-
-        &__container-text-date,
-        &__container-text-comment {
-            color: $color-grey500;
-        }
-    }
+ }
 
     // blog end
 
     //  description
     .description {
 
-        &__autor {
+        &__writer {
             display: flex;
             gap: 8px;
             align-items: center;
@@ -64,7 +59,7 @@
             }
         }
 
-        &__autor-img {
+        &__writer-img {
             max-width: 70px;
         }
 
@@ -80,7 +75,7 @@
             }
         }
 
-        &__social-items {
+        &__social-networks {
             display: flex;
             flex-direction: column;
             gap: 24px;
@@ -103,7 +98,12 @@
             margin-bottom: 32px;
         }
 
-        &__content-vector {
+        &__content-text{
+            color: $color-black;
+        }
+
+        
+        &__context {
             display: flex;
             flex-direction: column;
             gap: 48px;
@@ -112,26 +112,30 @@
             padding: 0px 0px 32px 64px;
         }
 
-        &__content-vector-text:last-child {
-            color: $color-grey500;
+        &__context-text{
+            color: $color-black;
         }
 
-        &__content-2-list {
+        &__content2-text{
+            color:$color-black
+        }
+
+        &__questionanswer {
             display: flex;
             flex-direction: column;
             gap: 48px;
             margin: 32px 0 0 18px;
         }
 
-        &__content-2-list-item {
-            list-style: disc;
+        &__questionanswer-item {
+            list-style: inside;
         }
 
         &__tags {
             display: flex;
             gap: 16px;
             margin: 66px auto 112px;
-            border-bottom: 1px solid $color-grey;
+            border-bottom: 2px solid $color-black;
             padding-bottom: 16px;
             max-width: 736px;
 
@@ -192,11 +196,16 @@
             }
         }
 
+        &__fields-checkbox-icon{
+            width: 20px;
+            height: 20px;
+        }
+
         &__fields-checkbox-text {
             color: $color-grey500;
         }
 
-        &__btn {
+        &__button {
             padding: 8px 34px;
             margin-top: 40px;
         }
@@ -228,7 +237,7 @@
             gap: 24px;
         }
 
-        &__img {
+        &__writer-img {
             width: 70px;
             height: 70px;
         }
@@ -240,7 +249,7 @@
             margin-bottom: 16px;
         }
 
-        &__column-content-info-data {
+        &__data {
             color: $color-grey500;
         }
 
@@ -250,7 +259,7 @@
             margin-bottom: 16px;
         }
 
-        &__column-content-link-text {
+        &__reply {
             color: $color-grey500;
             padding-left: 6px;
         }
