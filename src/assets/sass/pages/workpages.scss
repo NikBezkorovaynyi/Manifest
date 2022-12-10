@@ -1,4 +1,4 @@
-.workpag {
+.workpage {
     margin-top: 50px;
     @media(max-width:$tablet){
         padding: 64px 16px;
@@ -14,10 +14,11 @@
       
     &__title{
         margin-top: 45px;
+        margin-bottom: 40px;
     }
 
     &__img{
-      margin-top: 55px;
+      margin-top: 550px;
     }
 
    &__description{
