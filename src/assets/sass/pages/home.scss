@@ -22,7 +22,7 @@
         gap:30px;
         overflow: scroll;
         justify-content: center;
-        margin:128px 100px 120px 100px;
+        margin:50px 50px 50px 50px;
         @media (max-width: $tablet) {
             margin:30px 0 50px 0;
         }
@@ -34,7 +34,7 @@
         }
     
         &__cart-img{
-            width: 544px;
+            width: 520px;
             margin-bottom: 16px;
             @media (max-width: $tablet) {
                 max-width: 257px;
@@ -92,7 +92,7 @@
         .post{
             width: 100%;
             margin-top: 130px;
-            margin-bottom: 100px;
+            
             display: flex;
             justify-content: space-between;
             @media(max-width:$tablet){
