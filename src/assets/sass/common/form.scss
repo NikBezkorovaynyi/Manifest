@@ -26,12 +26,9 @@
         padding: 16px 0px 8px;
         display: block;
         width: 100%;
-        border-bottom: 2px solid $color-black;
+        border:none;
+        border-bottom: 1px solid rgb(66, 64, 64);
         cursor: pointer;
-
-        // &:focus {
-        //     border-bottom: 2px solid rgb(0, 0, 0);
-        // }
 
         &:hover {
             border-bottom: 2px solid rgb(0, 0, 0);
