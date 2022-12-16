@@ -242,7 +242,7 @@
             height: 70px;
         }
 
-        &__field-content-info {
+        &__field-about {
             display: flex;
             align-items: center;
             gap: 24px;
@@ -253,7 +253,7 @@
             color: $color-grey500;
         }
 
-        &__field-content-text {
+        &__field-comments {
             color: $color-grey700;
             max-width: 639px;
             margin-bottom: 16px;
